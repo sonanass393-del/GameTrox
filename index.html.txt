@@ -1,0 +1,77 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game & App Download</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background: #f4f4f4; }
+        header { background: #1a73e8; padding: 20px; color: #fff; text-align: center; }
+        nav { background: #fff; padding: 10px; display: flex; justify-content: center; gap: 20px; }
+        nav a { text-decoration: none; color: #333; font-weight: bold; }
+        .container { max-width: 900px; margin: 20px auto; padding: 15px; background: #fff; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .game-box { display: flex; gap: 15px; margin-bottom: 20px; padding: 15px; background: #fafafa; border-radius: 8px; }
+        .game-box img { width: 120px; border-radius: 8px; }
+        .download-btn { display: inline-block; padding: 10px 15px; background: #1a73e8; color: #fff; text-decoration: none; border-radius: 6px; margin-top: 10px; }
+        footer { text-align: center; padding: 20px; background: #222; color: #fff; margin-top: 40px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Game & App Download</h1>
+        <p>Download the latest games and applications for free</p>
+    </header><nav>
+    <a href="#">Home</a>
+    <a href="#">Games</a>
+    <a href="#">Apps</a>
+    <a href="#">Categories</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+    <h2>Latest Games</h2>
+
+    <div class="game-box">
+        <img src="https://via.placeholder.com/120" alt="Game Image" />
+        <div>
+            <h3>Free Fire – Latest Version</h3>
+            <p>Free Fire is a battle royale game where 50 players compete on an island for survival.</p>
+            <a class="download-btn" href="#">Download APK</a>
+        </div>
+    </div>
+
+    <div class="game-box">
+        <img src="https://via.placeholder.com/120" alt="Game Image" />
+        <div>
+            <h3>PUBG Mobile</h3>
+            <p>PUBG Mobile offers realistic graphics and classic battle royale gameplay.</p>
+            <a class="download-btn" href="#">Download APK</a>
+        </div>
+    </div>
+
+    <h2>Latest Apps</h2>
+
+    <div class="game-box">
+        <img src="https://via.placeholder.com/120" alt="App Image" />
+        <div>
+            <h3>WhatsApp – New Update</h3>
+            <p>Chat, send media, and connect with millions of users worldwide.</p>
+            <a class="download-btn" href="#">Download APK</a>
+        </div>
+    </div>
+
+    <div class="game-box">
+        <img src="https://via.placeholder.com/120" alt="App Image" />
+        <div>
+            <h3>TikTok</h3>
+            <p>Watch and create short videos using TikTok’s global platform.</p>
+            <a class="download-btn" href="#">Download APK</a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>© 2025 Game & App Download | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
